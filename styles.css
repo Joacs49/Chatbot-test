@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.header {
+  background-color: #f08080;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #fff0f0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.services {
+  background-color: #ffe4e1;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f08080;
+  color: white;
+}
