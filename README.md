@@ -12,16 +12,12 @@ Este es un proyecto simple de una página web para una peluquería, que incluye 
 ## 📦 Estructura
 
 /pruebaia
-│
-│
-├── styles.css            # Estilos principales para la interfaz de la página
-│
-├── scripts.js            # Lógica del chatbot y la interacción con el webhook
-├── config.js             # Configuración del webhook de n8n
-│                           
-│
-├── index.html            # Página principal con el chatbot embebido
-└── README.md             # Documentación del proyecto
+
+- styles.css            # Estilos principales para la interfaz de la página
+- scripts.js            # Lógica del chatbot y la interacción con el webhook
+- config.js             # Configuración del webhook de n8n
+- index.html            # Página principal con el chatbot embebido
+- README.md             # Documentación del proyecto
 
 ## 🛠️ Requisitos para el chatbot
 
