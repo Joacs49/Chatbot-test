@@ -11,6 +11,17 @@ Este es un proyecto simple de una página web para una peluquería, que incluye 
 
 ## 📦 Estructura
 
+/pruebaia
+│
+│
+├── styles.css            # Estilos principales para la interfaz de la página
+│
+├── scripts.js            # Lógica del chatbot y la interacción con el webhook
+├── config.js             # Configuración del webhook de n8n
+│                           
+│
+├── index.html            # Página principal con el chatbot embebido
+└── README.md             # Documentación del proyecto
 
 ## 🛠️ Requisitos para el chatbot
 
@@ -19,5 +30,14 @@ Este es un proyecto simple de una página web para una peluquería, que incluye 
 
 ## 📖 Cómo usar
 
-1. Clona el repositorio:
-   
+1. Clona el repositorio: https://github.com/Joacs49/Chatbot-test.git
+2. Crea un archivo con el nombre: config.js dentro de la carpeta de scripts.
+3. Agrega el siguiente fragmento de código al archivo config.js:
+
+    window.config = {
+        webhookUrl: ""  // Aquí debes ingresar la URL del webhook de tu flujo en n8n
+    };
+
+4. En el campo webhookUrl, agrega el webhook generado por tu flujo de n8n. Este webhook se usará para enviar los mensajes desde el chatbot hacia el     backend de n8n.
+5. Abre el archivo index.html en tu navegador para visualizar y probar tu chatbot.
+    
