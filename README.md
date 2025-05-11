@@ -37,3 +37,6 @@ Este es un proyecto simple de una página web para una peluquería, que incluye 
 4. En el campo webhookUrl, agrega el webhook generado por tu flujo de n8n. Este webhook se usará para enviar los mensajes desde el chatbot hacia el     backend de n8n.
 5. Abre el archivo index.html en tu navegador para visualizar y probar tu chatbot.
     
+## 🔄 Flujo Utilizado
+
+<img src="/images/Flujo-ChatBot.png" alt="Logo del proyecto" width="600"/>
