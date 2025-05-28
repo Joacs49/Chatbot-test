@@ -2,14 +2,14 @@
 
 Este es un proyecto simple de una página web para una peluquería, que incluye un chatbot embebido usando **n8n** y **Ollama** como backend de IA.
 
-## 🚀 Funcionalidades
+# 🚀 Funcionalidades
 
 - Página web responsive para una peluquería
 - Diseño limpio y moderno con HTML + CSS
 - Chatbot embebido con `@n8n/chat` conectado a un flujo de n8n
 - Envío de mensajes desde la web hacia n8n usando webhook
 
-## 📦 Estructura
+# 📦 Estructura
 
 /pruebaia
 
@@ -19,12 +19,12 @@ Este es un proyecto simple de una página web para una peluquería, que incluye 
 - index.html            # Página principal con el chatbot embebido
 - README.md             # Documentación del proyecto
 
-## 🛠️ Requisitos para el chatbot
+# 🛠️ Requisitos para el chatbot
 
 - Tener corriendo un flujo de n8n con un webhook POST configurado
 - Tener Ollama instalado (por ejemplo, vía Docker) para ejecutar el modelo
 
-## 📖 Cómo usar
+# 📖 Cómo usar
 
 1. Clona el repositorio: https://github.com/Joacs49/Chatbot-test.git
 2. Crea un archivo con el nombre: config.js dentro de la carpeta de scripts.
@@ -37,6 +37,9 @@ Este es un proyecto simple de una página web para una peluquería, que incluye 
 4. En el campo webhookUrl, agrega el webhook generado por tu flujo de n8n. Este webhook se usará para enviar los mensajes desde el chatbot hacia el     backend de n8n.
 5. Abre el archivo index.html en tu navegador para visualizar y probar tu chatbot.
     
-## 🔄 Flujo Utilizado
+# Proyecto
+Para poder utilizar el proyecto, importar el archivo Agente_IA.json desde n8n.
+
+# 🔄 Flujo Utilizado
 
 <img src="/images/Flujo-ChatBot.png" alt="Logo del proyecto" width="600"/>
